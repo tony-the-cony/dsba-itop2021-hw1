@@ -28,6 +28,9 @@ find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
 
 set(PROJECT_SOURCES
+        aboutdialog.cpp
+        renderarea.h
+        aboutdialog.h
         windowInput.cpp
         windowInput.h
         windowInput.ui
@@ -38,6 +41,8 @@ set(PROJECT_SOURCES
         mainwindow.h
         mainwindow.ui
         windowOutput.ui
+        renderarea.cpp
+        aboutdialog.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

@@ -49,12 +49,12 @@ void windowOutput::on_actionOpen_triggered()
 
 void windowOutput::on_pushButtonSortCountry_clicked()
 {
-        ui->tableView->sortByColumn(6, Qt::AscendingOrder);
+    ui->tableView->sortByColumn(6, Qt::AscendingOrder);
 }
 
 void windowOutput::on_pushButtonSortDate_clicked()
 {
-        ui->tableView->sortByColumn(5, Qt::AscendingOrder);
+    ui->tableView->sortByColumn(5, Qt::AscendingOrder);
 }
 
 

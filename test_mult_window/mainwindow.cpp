@@ -1,6 +1,8 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 
+#include "aboutdialog.h"
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -28,6 +30,11 @@ void MainWindow::on_pushButton2_clicked()
     this->close();
 }
 
+void MainWindow::on_actionAbout_triggered()
+{
+    AboutDialog dialog;
+    dialog.exec();
+}
 
 MainWindow::~MainWindow()
 {
