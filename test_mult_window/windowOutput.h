@@ -19,6 +19,8 @@ public:
 private slots:
     void on_pushButton3_clicked();
     void on_actionOpen_triggered();
+    void on_pushButtonSortCountry_clicked();
+    void on_pushButtonSortDate_clicked();
 
 signals:
     void startWindow();
