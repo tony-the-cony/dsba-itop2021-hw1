@@ -69,6 +69,12 @@
          <pointsize>30</pointsize>
         </font>
        </property>
+       <property name="inputMethodHints">
+        <set>Qt::ImhNone</set>
+       </property>
+       <property name="placeholderText">
+        <string comment="numbers only" extracomment="numbers only">num</string>
+       </property>
       </widget>
      </item>
      <item row="1" column="0">
@@ -101,6 +107,9 @@
         <font>
          <pointsize>30</pointsize>
         </font>
+       </property>
+       <property name="placeholderText">
+        <string comment="numbers only" extracomment="numbers only">num</string>
        </property>
       </widget>
      </item>
@@ -135,6 +144,9 @@
          <pointsize>30</pointsize>
         </font>
        </property>
+       <property name="placeholderText">
+        <string comment="numbers only" extracomment="numbers only">num</string>
+       </property>
       </widget>
      </item>
      <item row="3" column="0">
@@ -168,6 +180,9 @@
          <pointsize>30</pointsize>
         </font>
        </property>
+       <property name="placeholderText">
+        <string comment="numbers only" extracomment="numbers only">num</string>
+       </property>
       </widget>
      </item>
      <item row="4" column="0">
@@ -200,6 +215,9 @@
         <font>
          <pointsize>30</pointsize>
         </font>
+       </property>
+       <property name="placeholderText">
+        <string comment="numbers only" extracomment="numbers only">num</string>
        </property>
       </widget>
      </item>

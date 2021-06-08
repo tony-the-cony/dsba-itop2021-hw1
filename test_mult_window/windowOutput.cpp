@@ -33,9 +33,10 @@ void windowOutput::on_actionOpen_triggered()
         ui->pushButtonSortCountry->setDisabled(false);
         ui->pushButtonSortDate->setDisabled(false);
         QTextStream in(&file);
+        QString line = in.readLine();
         while (!in.atEnd())
         {
-            QString line = in.readLine();
+            line = in.readLine();
             QList<QStandardItem *> standardItemsList;
             for (QString item : line.split(",")) {
                 standardItemsList.append(new QStandardItem(item));
