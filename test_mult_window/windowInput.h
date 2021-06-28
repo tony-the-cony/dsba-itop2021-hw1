@@ -2,6 +2,7 @@
 #define WINDOWINPUT_H
 
 #include <QWidget>
+#include <QStandardItemModel>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class windowInput; }
@@ -24,6 +25,7 @@ signals:
 
 private:
     Ui::windowInput *ui;
+    QStandardItemModel *csvModel;
 };
 
 
